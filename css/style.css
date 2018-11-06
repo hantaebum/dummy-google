@@ -1,0 +1,194 @@
+/*resset css*/
+
+* {
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+body {
+	font-size: 14px;
+	line-height: 21px;
+	color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+input[type="submit"], button {
+	background-color: transparent;
+}
+
+img {
+	vertical-align: top;
+}
+
+.gnb {
+	padding: 15px 0;
+	margin-bottom: 150px; 
+}
+
+.gnb ul {
+	text-align: right;
+	padding-right: 30px;
+}
+
+.gnb li {
+	display: inline-block;
+	word-spacing: 10px;
+	vertical-align: top;
+}
+
+.gnb li:not(.normal) a {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: 9999em;
+	overflow: hidden;
+}
+
+.gnb .apps a {
+	background-image: url(../images/menu.png);
+	background-size: 16px 16px;
+	width: 16px;
+	height: 21px;
+}
+
+.gnb .notice a {
+	background-image: url(../images/alarm.png);
+	background-size: 21px 21px;
+	width: 21px;
+	height: 21px;
+}
+
+.gnb .account a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: navy;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 50%; /* 정 원 모양*/
+	margin-top: -4.5px;
+}
+
+main .logo {
+	text-align: center;
+	margin-bottom: 21px;
+}
+
+main form {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+main form .input-wrap {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	width: 500px;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom: 30px;
+	display: flex;
+}
+
+main form .input-wrap > * {
+	vertical-align: top;
+}
+
+main form .input-wrap button {
+	width: 40px;
+	text-align: center;
+}
+
+main form .input-wrap button img{
+	max-height: 25px;
+}
+
+main form input[type="text"] {
+	width: calc(100% - 80px); /* 함수 css*/
+	height: 34px;
+	line-height: 34px;
+}
+
+main form .btn-wrap {
+	text-align: center;
+}
+
+main form .btn-wrap li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+main form .btn-wrap li:last-child {
+	margin-right: 0;
+}
+
+main form .btn-wrap li input {
+	background-color: #ebebeb;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 10px;
+	font-weight: 500;
+	border-radius: 3px;
+	border: solid 1px transparent;
+}
+
+main form .btn-wrap li input:hover {
+	border: solid 1px #c6c6c6;
+}
+
+/* footer */
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #ebebeb;
+	line-height: 40px;
+}
+
+footer > ul > li {
+	border-top: 1px solid #c6c6c6;
+	padding: 0 20px;
+}
+
+footer .else:after {
+	clear: both;
+	display: block;
+	content:  "";
+}
+
+footer .business {
+	float: left;
+}
+
+footer .business li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+footer .business li:last-child {
+	margin-right: 0;
+}
+
+footer .privacy {
+	float: right;
+}
+
+footer .privacy li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+footer .privacy li:last-child {
+	margin-right: 0;
+}
